@@ -1,5 +1,5 @@
 html{
-        background: fixed no-repeat url(/bgimg.jpg);
+        background-color:#221e17;
         /* -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover; */
@@ -35,7 +35,7 @@ footer a{
     color: aliceblue;;
 }
 footer a:hover{
-           color: pink;
+           color: rgb(25, 158, 54);
 } 
 .name{
     text-align: center;
@@ -44,10 +44,16 @@ footer a:hover{
 .aboutme{
     color:aliceblue;
 }
-#prodylink{
+#prodylink {
     color:darkolivegreen;
 }
 #prodylink:hover{
+    color: aliceblue;
+}
+.mywebsite{
+    color: darkolivegreen;
+}
+.mywebsite:hover{
     color: aliceblue;
 }
  table{
@@ -55,4 +61,21 @@ footer a:hover{
  }
  thead{
      text-align: justify;
+ }
+
+ hr{
+     border-color: grey;
+     width: 5%;
+     border-style:dotted none none none;
+     border-width: 5px;
+     /* height: 2px; */
+     
+ }
+
+ .swastik{
+     color: rgb(182, 143, 35);
+     text-align: center;
+ }
+ h1{
+     color: rgb(74, 153, 74);
  }
