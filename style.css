@@ -1,5 +1,5 @@
 html{
-        background-color:#221e17;
+        background-color:#bb5b27);
         /* -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover; */
@@ -8,16 +8,14 @@ html{
 nav{
     text-align: center;
 }
-nav a{
-    color: aliceblue;
-    text-align:center;
 
-}
+
+
 nav a:hover{
-    color: palevioletred;
+    color:#bb5b27;
 }
 p .basicinfo{
-    color: aliceblue;
+    color:green;
 }
 
 
@@ -31,24 +29,18 @@ img{
 .myimg{
     clip-path: circle(50% at 50% 50%);
 }
-footer a{
-    color: aliceblue;;
-}
+
+    
 footer a:hover{
            color: rgb(25, 158, 54);
 } 
-.name{
-    text-align: center;
-    color: aliceblue;
-}
-.aboutme{
-    color:aliceblue;
-}
+
+
 #prodylink {
     color:darkolivegreen;
 }
 #prodylink:hover{
-    color: aliceblue;
+    color: rgb(74, 153, 74);
 }
 .mywebsite{
     color: darkolivegreen;
@@ -56,9 +48,8 @@ footer a:hover{
 .mywebsite:hover{
     color: aliceblue;
 }
- table{
-     color: aliceblue;
- }
+
+ 
  thead{
      text-align: justify;
  }
