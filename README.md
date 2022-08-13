@@ -1,2 +1,2 @@
-My basic web site(Static)
-Checkout website here: http://swastkk.github.io
+Just my Portfolio Website :)
+https://swastkk.github.io
