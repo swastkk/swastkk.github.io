@@ -72,20 +72,21 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: #fff;
+  color: #0563bb;
   line-height: 1;
   display: inline-block;
 }
 
 #header h2 {
   font-size: 24px;
+  font-weight: 600;
   margin-top: 20px;
   color: rgb(8 66 152 / 75%);
 }
 
 #header h2 span {
   color: rgba(8, 66, 152, 0.75);
-  border-bottom: 2px solid #4dddfc;
+  
   padding-bottom: 6px;
 }
 
@@ -114,6 +115,7 @@ h6 {
 }
 
 #header .social-links a:hover {
+  color: #fff!important;
   background: rgba(8, 66, 152, 0.75);
 }
 
@@ -142,7 +144,7 @@ h6 {
 /* Header Top */
 #header.header-top {
   height: 80px;
-  position: fixed;
+ /* position: fixed;  */
   left: 0;
   top: 0;
   right: 0;
@@ -153,10 +155,15 @@ h6 {
 #header.header-top h2 {
   display: none;
 }
+#header.header-top p {
+  display: none;
+}
+
 
 #header.header-top h1 {
+  color: #fff !important;
   margin-right: auto;
-  font-size: 36px;
+  font-size: 30px !important;
 }
 
 #header.header-top .container {
@@ -250,7 +257,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #fff;
+  color: #0563bb;
 }
 
 /**
@@ -348,9 +355,13 @@ section.section-show {
 section .container {
   background: rgba(0, 0, 0, 0.9);
   padding: 30px;
-}
+  }
 
 @media (max-width: 768px) {
+  .heyyText{
+    display: flex;
+    align-self: flex-start;
+  }
   section {
     top: 120px;
   }
@@ -377,7 +388,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #0563bb;
   margin: 4px 10px;
 }
 
@@ -397,7 +408,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #0563bb;
 }
 
 .about-me .content ul {
@@ -418,12 +429,15 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: rgb(5 99 187);
   line-height: 0;
 }
 
 .about-me .content p:last-child {
   margin-bottom: 0;
+}
+.img-fluid{
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -439,6 +453,7 @@ section .container {
   position: relative;
   text-align: center;
   background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
 }
 
 .counts .count-box i {
@@ -449,7 +464,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: #0563bb;
   border-radius: 50px;
   line-height: 0;
 }
@@ -501,7 +516,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #0563bb;
 }
 
 /*--------------------------------------------------------------
@@ -789,7 +804,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #0563bb;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -998,7 +1013,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #0563bb;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1122,7 +1137,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #18d26e;
+  background: #0563bb;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1131,7 +1146,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #15bb62;
+  background: #0563bb;
 }
 
 @-webkit-keyframes animate-loading {
