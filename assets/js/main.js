@@ -18,7 +18,18 @@
       return document.querySelector(el)
     }
   }
-
+   /** that animation in home of moving description A sophomore student */ 
+  if ($('.typed').length) {
+     var typed_strings = $(".typed").data('typed-items');
+     typed_strings = typed_strings.split(',')
+     new Typed('.typed', {
+       strings: typed_strings,
+       loop: true,
+       typeSpeed: 75,
+       backSpeed: 40,
+       backDelay: 2000
+    });
+  }
   /**
    * Easy event listener function
    */
@@ -250,3 +261,5 @@
   new PureCounter();
 
 })()
+
+

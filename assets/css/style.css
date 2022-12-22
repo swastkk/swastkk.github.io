@@ -9,7 +9,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/rmradev-evening-forest.webp") top right no-repeat;
+  background: #040404 url("../img/bg.webp") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -47,7 +47,6 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgb(255 255 255 / 40%);
   transition: ease-in-out 0.3s;
   position: relative;
   height: 100vh;
@@ -83,10 +82,14 @@ h6 {
   margin-top: 20px;
   color: rgb(8 66 152 / 75%);
 }
+#header p{
+  font-size: 20px;
+  color: #45505b;
+  letter-spacing: 1.4px;
+}
 
-#header h2 span {
-  color: rgba(8, 66, 152, 0.75);
-  
+#header p span {
+  color: #0563bb;
   padding-bottom: 6px;
 }
 
@@ -96,7 +99,7 @@ h6 {
 }
 
 #header .social-links {
-  margin-top: 40px;
+  margin-top: 26px;
   display: flex;
 }
 
@@ -264,7 +267,6 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #0563bb;
   font-size: 28px;
   cursor: pointer;
   display: none;
