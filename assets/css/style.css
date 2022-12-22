@@ -9,7 +9,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bgpink.webp") top right no-repeat;
+  background: #040404 url("../img/rmradev-evening-forest.webp") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -264,7 +264,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #0563bb;
   font-size: 28px;
   cursor: pointer;
   display: none;
